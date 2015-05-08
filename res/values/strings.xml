@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DeepFood</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Auto Mode</string>
+    <string name="action_mode">Model Select</string>
+    <string name="food">food rec</string>
+    <string name="general">general rec</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+
+</resources>

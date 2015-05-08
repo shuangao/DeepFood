@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="horizontal" >
+
+	<ListView
+	    android:id="@+id/MyListView"
+	    android:layout_width="0dp"
+	    android:layout_weight="0.2"
+	    android:layout_height="match_parent" >
+  
+    </ListView> 
+
+	<LinearLayout
+	    android:layout_width="0dp"
+	    android:layout_height="match_parent"
+	    android:background="#000000"
+	    android:layout_weight="0.8" >
+
+	    <ca.uwo.csd.deepfood.CameraDrawView
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:visibility="gone" 
+	        android:id="@+id/camera_surface_view" />
+    </LinearLayout>
+
+</LinearLayout>
+
